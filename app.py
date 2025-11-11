@@ -58,7 +58,7 @@ def formula(molecule):
 
 st.title("화학식량 계산기")
 
-molecule = st.text_input("분자식 입력", "")
+molecule = st.text_input("분자식 입력", "H2O")
 mass = st.number_input("분자의 질량 입력 (g)", value=0)
 
 if molecule:
